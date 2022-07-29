@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-elements-control {
+  margin-top: 20px;
+}
+
+#content-page {
+  width: 100%;
+}
+
+.task-container {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.text-task {
+  width: 70%;
+  word-wrap: break-word;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
